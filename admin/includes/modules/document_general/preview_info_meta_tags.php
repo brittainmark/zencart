@@ -63,15 +63,15 @@ $form_action = (isset($_GET['pID'])) ? 'update_product_meta_tags' : 'insert_prod
       </tr>
       <tr>
         <td class="main"><?php echo TEXT_META_TAGS_TITLE; ?>&nbsp;</td>
-        <td class="main" colspan="3"><?php echo ($pInfo->metatags_title_status == '1' ? $pInfo->metatags_title : TEXT_META_EXCLUDED); ?></td>
+        <td class="main"><?php echo ($pInfo->metatags_title_status == '1' ? $pInfo->metatags_title : TEXT_META_EXCLUDED); ?></td>
       </tr>
       <tr>
         <td class="main"><?php echo TEXT_META_TAGS_KEYWORDS; ?>&nbsp;</td>
-        <td class="main" colspan="3"><?php echo $pInfo->metatags_keywords; ?></td>
+        <td class="main"><?php echo $pInfo->metatags_keywords; ?></td>
       </tr>
       <tr>
         <td class="main"><?php echo TEXT_META_TAGS_DESCRIPTION; ?>&nbsp;</td>
-        <td class="main" colspan="3"><?php echo $pInfo->metatags_description; ?></td>
+        <td class="main"><?php echo $pInfo->metatags_description; ?></td>
       </tr>
     </table>
     <?php
